@@ -1,0 +1,52 @@
+@font-face {
+    font-family: f1;
+    src: url(./Formula1-Regular.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.wsupercars.com/wallpapers-wide/Formula-1/Red-Bull-Racing/2024-Formula1-Red-Bull-Racing-RB20-004-1440w.jpg);
+
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px;
+
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+    font-family: f1;
+    font-weight: 100px
+}
+
+button{
+    color: black;
+    font-size: 20px;
+    padding: 10px 40px;
+    background: linear-gradient(90deg, #2a5298, red, yellow 100%);
+    border: 3px solid rgb(23, 2, 2);
+    font-weight: 100;
+    font-family: f1;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: linear-gradient(90deg, yellow, red, #2a5298 100%);
+    transform: scale(1.05);
+}
